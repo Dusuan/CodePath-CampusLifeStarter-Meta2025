@@ -1,7 +1,28 @@
-body {
+body{
+ gap: 50px
+}
+#banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+#navigation{
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.banner{
-    background-color: red;
+#student_orgs {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+#events{
+    display:flex;
+    
 }
